@@ -110,7 +110,6 @@ body{
 }
 
 input[name='images']{
-    position: absolute;
     visibility: hidden;
 }
 
@@ -122,7 +121,7 @@ input[name='images']{
 #img3:checked ~ .slider__info .n3,
 #img4:checked ~ .slider__info .n4{
     background-color: rgb(0, 0, 0);
-    border: 3px solid rgb(108, 163, 7);
+    border: 0.15rem solid rgb(108, 163, 7);
 }
 
 #img1:checked ~ .slider__info .nav:hover .n1,
